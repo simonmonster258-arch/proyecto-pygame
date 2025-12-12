@@ -16,7 +16,7 @@ GREEN = (50, 200, 50) # Nuevo color para el mensaje de victoria
 SCREEN_WIDTH = 1200
 SCREEN_HEIGHT = 600
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Juego del Cuadrado Comedor (5s)")
+pygame.display.set_caption("Juego del Cuadrado Comedor Veloz (5s)")
 
 # Reloj para controlar la velocidad del juego
 clock = pygame.time.Clock()
