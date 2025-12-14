@@ -181,11 +181,11 @@ def game_loop():
             
             if is_winner:
                 # Mensaje de Victoria
-                display_message("¡GANASTE! :)", GREEN, -30, 48)
+                display_message("¡You Win! :)", GREEN, -100, 200)
                 display_message(f"¡Comiste los {player.score} cuadrados a tiempo!", WHITE, 30, 36)
             else:
                 # Mensaje de Derrota por Tiempo
-                display_message("¡FIN DEL JUEGO! :(", RED, -30, 48)
+                display_message("¡Game Over! :(", RED, -100, 200)
                 display_message(f"Solo lograste comer: {player.score} cuadrados.", WHITE, 30, 36)
                 
             display_message("Presiona ESPACIO para reiniciar.", WHITE, 70, 28)
